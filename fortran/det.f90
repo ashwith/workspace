@@ -1,5 +1,6 @@
 !Function to find the determinant of a square matrix
-!Author : Louisda16th a.k.a Ashwith J. Rego
+!Author: Louisda16th a.k.a Ashwith J. Rego 
+!Email: ashwith@ieee.org
 !Description: The subroutine is based on two key points:
 !1] A determinant is unaltered when row operations are performed: Hence, using this principle,
 !row operations (column operations would work as well) are used
