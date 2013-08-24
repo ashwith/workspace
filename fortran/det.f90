@@ -1,12 +1,3 @@
-!Function to find the determinant of a square matrix
-!Author: Louisda16th a.k.a Ashwith J. Rego 
-!Email: ashwith@ieee.org
-!Description: The subroutine is based on two key points:
-!1] A determinant is unaltered when row operations are performed: Hence, using this principle,
-!row operations (column operations would work as well) are used
-!to convert the matrix into upper traingular form
-!2]The determinant of a triangular matrix is obtained by finding the product of the diagonal elements
-
 !Copyright (C) 2007 Ashwith Jerome Rego
 !
 !This program is free software: you can redistribute it and/or modify
@@ -21,6 +12,15 @@
 !
 !You should have received a copy of the GNU General Public License
 !along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+!Function to find the determinant of a square matrix
+!Author: Louisda16th a.k.a Ashwith J. Rego 
+!Email: ashwith@ieee.org
+!Description: The subroutine is based on two key points:
+!1] A determinant is unaltered when row operations are performed: Hence, using this principle,
+!row operations (column operations would work as well) are used
+!to convert the matrix into upper traingular form
+!2]The determinant of a triangular matrix is obtained by finding the product of the diagonal elements
 
 
 REAL FUNCTION FindDet(matrix, n)
